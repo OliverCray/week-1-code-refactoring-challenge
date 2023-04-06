@@ -1,17 +1,18 @@
-* { 
+* { /* Styles applied to entire page */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /* Styles applied to body*/
     background-color: #d9dcd6;
 }
 
+/* Styles applied to header and its children */
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Sets the main font and fallback fonts */
+    background-color: #2a607c; /* sets the background colour */
     color: #ffffff;
 }
 
@@ -21,7 +22,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* Sets colour of letters 'seo' in the header */
 }
 
 .header nav {
@@ -41,12 +42,12 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
+a { /* Styles applied to anchors */
+    color: #ffffff; 
     text-decoration: none;
 }
 
-p {
+p { /* Styles applied to paragraphs */
     font-size: 16px;
 }
 
@@ -54,15 +55,15 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 21px;
-    object-fit: cover;
+    object-fit: cover; /* Image maintains aspect ratio while filling container */
 }
 
-.float-left {
+.float-left { /* Makes an element move to the left */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /* Makes an element move to the right */
     float: right;
     margin-left: 25px;
 }
@@ -118,6 +119,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
