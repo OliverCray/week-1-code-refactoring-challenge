@@ -34,3 +34,10 @@ THEN I find a concise, descriptive title
 - Added id selector for 'search-engine-optimization' anchor
 - Removed unnecessary CSS selectors and updated naming in CSS and HTML  to reflect this
 - Added comments to HTML and CSS
+
+## Screenshot
+
+![Deployed Webpage Screenshot](./assets/images/screenshot-of-deployed-webpage.jpg)
+
+## Deployed Webpage
+The published page is available here: https://olivercray.github.io/week-1-code-refactoring-challenge/
